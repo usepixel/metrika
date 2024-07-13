@@ -1,0 +1,31 @@
+body{
+    font-family: "Manrope", sans-serif;
+    
+}
+.main-block{
+    width: 1150px;
+    height: 650px;
+    margin-top: 128px;
+    margin-left: 125px;
+}
+h1{
+    font-weight: 400;
+    color: #121212;
+    font-size: 60px;
+    line-height: 60px;
+    width: 1000px;
+    height: 120px;
+}
+
+.main-block img{
+    padding-top: 30px;
+}
+.img p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #000000;
+    width: 450px;
+    height: 81px;
+    position: absolute;
+}
