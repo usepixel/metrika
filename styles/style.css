@@ -34,7 +34,7 @@ p{
 .about-block{
     width: 1051px;
     height: 518px;
-    margin: 150px 99px 5862px 128px;
+    margin: 150px 99px 0px 128px;
 }
 h4{
     width: 54px;
@@ -65,4 +65,51 @@ a{
     border-radius: 5px;
     text-align: center;
     background-color: #AD1818;
+}
+a:hover{
+    background-color: white;
+    color: #121212;
+}
+
+.projects{
+    width: 1150px;
+    height: 2122px;
+    margin: 200px 125px 0px 125px;
+}
+.word-project{
+    width: 79px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24.59px;
+    color: #121212;
+    padding: 0px 1196px 30px 0px;
+}
+
+.items{
+    width: 1150px;
+    height: 548px;
+}
+img{
+    width: 1150px;
+    height: 450px;
+}
+h3{
+    width: 501px;
+    height: 41px;
+    font-weight: 400;
+    color:#121212;
+    line-height: 40.98px;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-right: 649px;
+}
+.details{
+    width: 150px;
+    height: 27px;
+    color: #AD1818;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    padding: 15px 1146px 0px 0px;
 }
