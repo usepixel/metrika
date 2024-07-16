@@ -69,6 +69,7 @@ a{
 a:hover{
     background-color: white;
     color: #121212;
+    border-radius: 30px;
 }
 
 .projects{
