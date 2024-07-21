@@ -1,4 +1,4 @@
 # Metrica </br>
-link for this website: https://usepixel.github.io/Metrica/ </br>
-Work for my portfolio </br>
-Website for design services
+Ссылка на проект: https://usepixel.github.io/Metrica/ </br>
+Работа для моего портфолио </br>
+Веб-сайт студии дизайна "Метрика"
