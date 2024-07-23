@@ -3,9 +3,49 @@ body{
     font-family: "Manrope", sans-serif;
     background-color: #FFFFFF;
 }
+
+.nav__block{
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+    margin-top: 32.82px;
+    width: 1151.35px;
+    height: 25.18px;
+    background-color: #ffffff;
+}
+.nav__img{
+    display: flex;
+}
+.logo{
+    display: block;
+    width: 126.89px;
+    height: 21.42px;
+}
+.nav__list{
+    padding-left: 558.46px;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
+    text-decoration: none;
+    color: #121212;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+
+
 .main-block{
     width: 1150px;
-    margin-top: 128px;
+    margin-top: 70px;
     margin-left: 125px;
 }
 h1{
