@@ -13,11 +13,9 @@ body{
     height: 25.18px;
     background-color: #ffffff;
 }
-.nav__img{
-    display: flex;
+.nav__img{
 }
-.logo{
-    display: block;
+.logo{
     width: 126.89px;
     height: 21.42px;
 }
@@ -25,8 +23,7 @@ body{
     padding-left: 558.46px;
     width: 100%;
 }
-.nav{
-    display: flex;
+.nav{
     justify-content: space-around;
 }
 .link{
