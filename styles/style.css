@@ -13,7 +13,8 @@ body{
     height: 25.18px;
     background-color: #ffffff;
 }
-.nav__img{
+.nav__img{
+    display: flex;
 }
 .logo{
     width: 126.89px;
