@@ -20,6 +20,7 @@ body{
     height: 21.42px;
 }
 .nav__list{
+    display: flex;
     padding-left: 558.46px;
     width: 100%;
 }
