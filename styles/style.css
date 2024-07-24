@@ -1,4 +1,6 @@
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Manrope", sans-serif;
     background-color: #FFFFFF;
@@ -16,12 +18,12 @@ body{
 .nav__img{
     display: flex;
 }
-.logo{
+.logo{
+    display: block;
     width: 126.89px;
     height: 21.42px;
 }
 .nav__list{
-    display: flex;
     padding-left: 558.46px;
     width: 100%;
 }
@@ -129,7 +131,7 @@ h1{
 img{
     width: 1150px;
 }
-h3{
+.projects-text{
     width: 600px;
     font-weight: 400;
     color:#121212;
@@ -202,6 +204,25 @@ h3{
 }
 .price__money{
     width: 700px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #FFFFFF;
+}
+
+.bed-block{
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background-image: url("../resourses/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bed-text{
+    width: 443px;
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
     font-weight: 400;
     font-size: 30px;
     line-height: 40.98px;
