@@ -228,3 +228,44 @@ img{
     line-height: 40.98px;
     color: #FFFFFF;
 }
+
+.block-contacts{
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+}
+.contacts{
+    width: 500px;
+    padding: 186px 803px 150px 124px;
+    font-weight: 400;
+    color: #121212;
+}
+.contacts::before{
+    content: "";
+    background-image: url("../resourses/iphone.png");
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+
+}
+.name-contacts{
+    font-size: 18px;
+    line-height: 24.59px;
+    width: 90px;
+}
+.tel{
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mail{
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
