@@ -259,13 +259,52 @@ img{
 .tel{
     font-size: 60px;
     line-height: 60px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    color: #121212;
+    text-decoration: none;
+    padding-bottom: 32px;
+    padding-top: 32px;
 }
 .mail{
     font-size: 60px;
     line-height: 60px;
-    color: #121212;
+    color: #707070;
     text-decoration: underline;
     text-underline-offset: 10px;
+}
+
+.footer-block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 229px;
+    background-color: #121212;
+    position: relative;
+}
+
+.footer-resourses{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    position: absolute;
+    top: 60px;
+}
+.footer-link{
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.60px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.footer-text{
+    width: 450px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    position: absolute;
+    bottom: 30px;
 }
