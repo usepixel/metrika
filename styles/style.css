@@ -1,11 +1,20 @@
 html{
     scroll-behavior: smooth;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1180px;
 }
 body{
     font-family: "Manrope", sans-serif;
     background-color: #FFFFFF;
-}
 
+
+}
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1180px;
+}
 .nav__block{
     display: flex;
     align-items: center;
