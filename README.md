@@ -1,3 +1,3 @@
 # Веб-сайт студии дизайна "Метрика" </br>
-Ссылка на проект: https://usepixel.github.io/Metrica/ </br>
+Ссылка на сайт: https://usepixel.github.io/Metrica/ </br>
 Работа для моего портфолио </br>
