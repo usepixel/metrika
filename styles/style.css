@@ -391,17 +391,10 @@ img{
         /* height: 304px; */
     }
     .img-text{
-        width: 436px;
+        max-width: 60%;
         font-size: 16px;
-        left: 15px;
-        bottom: 15px;
-    }
-}
-@media (max-width: 550px){
-    .img-text{
-        max-width: 312px;
-        font-size: 16px;
-        left: 15px;
-        bottom: 15px;
+        /* left: 15px;
+        bottom: 15px; */
+        margin: 0 auto;
     }
 }
