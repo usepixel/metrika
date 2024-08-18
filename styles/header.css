@@ -22,6 +22,9 @@
     font-size: 18px;
     line-height: 24.60px;
 }
+li::marker{
+    content: "";
+}
 li:first-child{
     opacity: 50%;
     border-bottom: 1px solid #000000;
