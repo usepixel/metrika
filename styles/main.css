@@ -1,0 +1,15 @@
+@import '../styles/header.css';
+@import '../styles/about.css';
+
+html{
+    scroll-behavior: smooth;
+    letter-spacing: -0.03em;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}

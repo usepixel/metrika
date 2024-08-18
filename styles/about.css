@@ -1,0 +1,30 @@
+.wrapper_about{
+    width: 1150px;
+    height: 650px;
+    margin-top: 70px;
+}
+.about_title{
+    width: 956px;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+.about_inner{
+    width: 1150px;
+    height: 500px;
+    background-image: url("../img/bg-logo-pc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    position: relative;
+}
+.about_text{
+    width: 430px;
+    font-size: 20px;
+    line-height: 27.30px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
