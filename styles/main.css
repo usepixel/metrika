@@ -1,6 +1,3 @@
-@import '../styles/header.css';
-@import '../styles/about.css';
-
 html{
     scroll-behavior: smooth;
     letter-spacing: -0.03em;
@@ -13,4 +10,11 @@ html{
     width: 1180px;
     margin: 0 auto;
     padding: 0px 15px;
+}
+
+@media (max-width: 992px){
+    .container{
+        width: 958px;
+        margin: 0 auto;
+    }
 }
