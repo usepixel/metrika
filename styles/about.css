@@ -29,3 +29,27 @@
     left: 40px;
     bottom: 40px;
 }
+@media (max-width: 992px){
+    /* .container{
+        width: 960px;
+        padding-left: 17px;
+        padding-right: 15px;
+        margin: 0 auto;
+    } */
+    .wrapper_about{
+        width: 928px;
+        height: 550px;
+        margin-top: 73.76px;
+    }
+    .about_title{
+        width: 802px;
+        font-size: 50px;
+    }
+    .about_inner{
+        width: 928px;
+        height: 400px;
+    }
+    .about_text{
+        bottom: 30px;
+    }
+}
