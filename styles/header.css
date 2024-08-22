@@ -41,7 +41,7 @@ li:first-child{
         height: 21.40px;
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     .header{
         width: 350px;
         margin-top: 31px;
