@@ -15,5 +15,15 @@ html{
     .container{
         width: 958px;
         margin: 0 auto;
+        padding-left: 17px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        width: 375px;
+        margin: 0 auto;
+        padding-left: 13px;
+        padding-right: 12px;
     }
 }

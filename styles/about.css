@@ -68,8 +68,6 @@
     text-decoration: none;
 }
 
-
-
 @media (max-width: 992px){
     .wrapper_bg{
         width: 928px;
@@ -81,6 +79,7 @@
         font-size: 50px;
     }
     .about_inner{
+        background-image: url('../img/bg-logo-tablet.png');
         width: 928px;
         height: 400px;
     }
@@ -96,5 +95,32 @@
         width: 690px;
         font-size: 35px;
         line-height: 47.81px;
+    }
+}
+@media (max-width: 576px) {
+    .wrapper_bg{
+        width: 350px;
+        height: 424px;
+        margin-top: 50px;
+    }
+    .about_title{
+        width: 348px;
+        font-size: 31px;
+        line-height: 31.62px;
+        letter-spacing: -0.03em;
+        font-weight: 400;
+    }
+    .about_inner{
+        width: 350px;
+        height: 304px;
+        margin-top: 25px;
+        background-image: url("../img/bg-logo-phone.png");
+    }
+    .about_text{
+        left: 15px;
+        bottom: 15px;
+        width: 312px;
+        font-size: 16px;
+        line-height: 21.86px;
     }
 }
