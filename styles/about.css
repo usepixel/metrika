@@ -97,7 +97,7 @@
         line-height: 47.81px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 576px) {
     .wrapper_bg{
         width: 350px;
         height: 424px;

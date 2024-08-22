@@ -19,7 +19,7 @@ html{
         padding-right: 15px;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 576px) {
     .container{
         width: 375px;
         margin: 0 auto;
