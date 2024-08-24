@@ -5,10 +5,10 @@
     width: 1150px;
     height: 25.20px;
 }
-/* .logo_inner{
+.logo_inner{
     width: 126.90px;
     height: 21.40px;
-} */
+}
 .nav_inner{
     width: 466px;
 }
@@ -31,26 +31,23 @@ li:first-child{
 }
 @media (max-width: 992px){
     .header{
-        width: 928px;
+        width: 100%;
     }
     .nav_inner{
         display: none;
     }
     .logo{
-        width: 126.90px;
+        width: 126.89px;
         height: 21.40px;
     }
 }
 @media (max-width: 576px) {
     .header{
-        width: 350px;
+        width: 100%;
         margin-top: 31px;
     }
     .logo{
         width: 96px;
         height: 16px;
-    }
-    .nav_inner{
-        display: none;
     }
 }
