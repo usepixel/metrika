@@ -11,14 +11,14 @@ html{
     padding: 0px 15px;
 }
 
-@media (max-width: 992px){
+@media (max-width: 1024px){
     .container{
         width: 100%;
         padding-left: 17px;
         padding-right: 15px;
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 480px) {
     .container{
         padding-left: 13px;
         padding-right: 14px;

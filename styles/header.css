@@ -29,7 +29,7 @@ li:first-child{
     opacity: 50%;
     border-bottom: 1px solid #000000;
 }
-@media (max-width: 992px){
+@media (max-width: 1024px){
     .header{
         width: 100%;
     }
@@ -41,7 +41,7 @@ li:first-child{
         height: 21.40px;
     }
 }
-@media (max-width: 576px) {
+@media (max-width: 480px) {
     .header{
         width: 100%;
         margin-top: 31px;
