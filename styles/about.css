@@ -150,5 +150,16 @@
         font-size: 22px;
         line-height: 30.05px;
     }
+    .btn{
+        width: 194px;
+        height: 51px;
+        border-radius: 3.8px;
+        line-height: 51px;
+    }
+    .btn_text{
+        width: 140px;
+        font-size: 16px;
+        line-height: 21.86px;
+    }
 
 }
