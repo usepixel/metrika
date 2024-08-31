@@ -37,6 +37,10 @@
     margin-top: 15px;
     text-decoration: none;
 }
+.prj-more:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
 .btn-all-prj{
     width: 1150px;
     height: 153px;
@@ -52,6 +56,10 @@
     line-height: 40.98px;
     color: #AD1818;
     text-decoration: none;
+}
+.all-prj:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
 }
 @media (max-width: 1024px) {
     .wrapper-prj{
