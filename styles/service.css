@@ -5,13 +5,6 @@
     margin-top: 150px;
     border: 1px solid transparent;
 }
-.service-box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-direction: row;
-    /* gap: 85px; */
-}
 .service-text{
     width: 66px;
     font-size: 18px;
@@ -19,48 +12,69 @@
     color: #fff;
     margin-top: 151px;
     margin-bottom: 30px;
-    text-transform: uppercase;
 }
-.item-first{
-    width: 569px;
+.item-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    width: 50%;
     height: 455px;
+    position: relative;
+}
+.service{
+    height: 389px;   
+}
+.service-price{
+    min-width: 163px;
+    height: 40px;
+    position: absolute;
+    left: 31px;
+    top: 30px;
+    background-color: #AD1818;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+.text-price{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.first{
     margin-bottom: 85px;
 }
-.item-second{
-    width: 572px;
-    height: 455px;
+.second{
     margin-bottom: 85px;
 }
-.item-third{
-    width: 567px;
-    height: 447px;
+.third-price{
+    width: 193px;
 }
-.item-four{
-    width: 572px;
-    height: 447px;
+.four{
+    width: 211px;
 }
-.item-text{
+.title{
     font-size: 30px;
-    color:#fff;
     line-height: 40.98px;
-    margin-top: 20px;
-    padding-left: 3px;
+    color: #FFFFFF;
+    margin-top: 17px;
+    margin-left: 3px;
 }
-.service-btn{
+.btn-service{
     width: 1150px;
     height: 153px;
-    margin-top: 106px;
-    background-color: #AD1818;
     line-height: 153px;
     text-align: center;
+    background-color: #AD1818;
     border-radius: 5px;
+    margin-top: 106px;
 }
-.btn-text{
-    width: 1150px;
+.text-service{
     font-size: 30px;
-    color:#fff;
+    color: #FFFFFF;
+    text-decoration: none;
 }
-.btn-text:hover{
+.text-service:hover{
     text-decoration: underline;
     text-underline-offset: 10px;
 }
