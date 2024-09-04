@@ -2,25 +2,26 @@
     display: flex;
     justify-content: space-between;
     margin-top: 32.80px;
-    width: 1150px;
-    height: 25.20px;
+    
 }
-.logo_inner{
+.logo{
     width: 126.90px;
     height: 21.40px;
 }
 .nav_inner{
-    width: 466px;
-}
-.nav{
     display: flex;
     justify-content: space-between;
+    width: 466px;
 }
-.item{
+.nav-item{
     text-decoration: none;
     color: #121212;
     font-size: 18px;
     line-height: 24.60px;
+    /* margin-right: 60px; */
+}
+.nav-item:not(:last-child){
+    margin-right: 60px;
 }
 li::marker{
     content: "";

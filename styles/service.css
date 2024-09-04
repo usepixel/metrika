@@ -15,7 +15,7 @@
 }
 .item-wrapper{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 }
 .item{
@@ -24,6 +24,7 @@
     position: relative;
 }
 .service{
+    /* width: 50%; */
     height: 389px;   
 }
 .service-price{

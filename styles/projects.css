@@ -15,18 +15,11 @@
     margin-bottom: 90px;
 }
 .prj-text{
-    width: 501px;
     font-size: 30px;
     line-height: 40.98px;
     color: #121212;
     letter-spacing: -0.03em;
     margin-top: 15px;
-}
-.second{
-    width: 520px;
-}
-.third{
-    width: 542px;
 }
 .prj-more{
     display: block;
