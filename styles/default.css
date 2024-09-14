@@ -1,26 +1,19 @@
 html{
     scroll-behavior: smooth;
-    letter-spacing: -0.03em;
+}
+body{
     font-family: "Manrope", sans-serif;
     font-weight: 400;
 }
-
 .container{
-    width: 1180px;
-    margin: 0 auto;
+    max-width: 1180px;
+    margin: 0px auto;
     padding: 0px 15px;
 }
-
-@media (max-width: 1024px){
-    .container{
-        width: 100%;
-        padding-left: 17px;
-        padding-right: 15px;
-    }
+a{
+    display: inline-block;
+    text-decoration: none;
 }
-@media (max-width: 480px) {
-    .container{
-        padding-left: 13px;
-        padding-right: 14px;
-    }
+li{
+    list-style: none;
 }
