@@ -1,165 +1,62 @@
-.wrapper_bg{
+.about__top-wrapper{
     width: 1150px;
     height: 650px;
     margin-top: 70px;
-}
-.about_title{
-    width: 956px;
-    font-size: 60px;
-    line-height: 60px;
-    color: #121212;
-    letter-spacing: -0.03em;
-    font-weight: 400;
-}
-.about_inner{
-    width: 1150px;
-    height: 500px;
-    background-image: url("../img/bg-logo-pc.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 30px;
     position: relative;
 }
-.about_text{
-    width: 430px;
-    font-size: 20px;
-    line-height: 27.30px;
-    color: #FFFFFF;
+.title{
+    font-size: 60px;
+    line-height: 60px;
+    width: 956px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+.about__box-img{
+    width: 1150px;
+    height: 500px;
+    margin-top: 30px;
+}
+.about__img{
+    width: 100%;
+    height: 100%;
+}
+.about__text{
     position: absolute;
     left: 40px;
     bottom: 40px;
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #FFFFFF;
+    width: 430px;
 }
-
-.wrapper_about_txt{
+.about__bottom-wrapper{
     width: 1051px;
     height: 518px;
     margin-top: 150px;
 }
-
-.txt_logo{
-    width: 51px;
-    font-size: 18px;
-    line-height: 24.59px;
-    color: #121212;
-    margin-bottom: 30px;
-}
-.txt_about{
+.about__us{
     font-size: 45px;
-    color: #121212;
-    line-height: 61.47px;
-    width: 1048px;
+    line-height: 61px;
     letter-spacing: -0.03em;
-    font-weight: 400;
+    color: #121212;
+    margin-top: 30px;
+    margin-left: 3px;
 }
-.btn{
+.about__view-services{
     width: 255px;
     height: 67px;
-    background-color: #AD1818;
-    border-radius: 5px;
-    margin-top: 30px;
-    text-align: center;
     line-height: 67px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #AD1818;
+    margin-top: 30px;
 }
-.btn_text{
-    width: 175px;
-    color: #ffffff;
+.about__view-link--active{
+    color: #FFFFFF;
     font-size: 20px;
-    line-height: 27.32px;
-    text-decoration: none;
+    line-height: 27px;
 }
-
-@media (max-width: 1024px){
-    .wrapper_bg{
-        width: 100%;
-        height: 550px;
-        margin-top: 73.76px;
-    }
-    .about_title{
-        width: 802px;
-        font-size: 50px;
-    }
-    .about_inner{
-        background-image: url('../img/bg-logo-tablet.png');
-        width: 100%;
-        height: 400px;
-    }
-    .about_text{
-        bottom: 30px;
-    }
-    .wrapper_about_txt{
-        width: 693px;
-        height: 488px;
-        margin-top: 120px;
-    }
-    .txt_about{
-        width: 70%;
-        font-size: 35px;
-        line-height: 47.81px;
-    }
-    .wrapper_about_txt{
-        width: 693px;
-        height: 488px;
-        margin-top: 120px;
-    }
-    .txt_about{
-        width: 690px;
-        height: 336px;
-        font-size: 35px;
-        line-height: 47.81px;
-    }
-}
-@media (max-width: 850px) {
-    .about_title{
-        width: 80%;
-    }
-}
-@media (max-width: 480px) {
-    .wrapper_bg{
-        width: 100%;
-        height: 424px;
-        margin-top: 50px;
-    }
-    .about_title{
-        width: 348px;
-        font-size: 31px;
-        line-height: 31.62px;
-        letter-spacing: -0.03em;
-        font-weight: 400;
-    }
-    .about_inner{
-        width: 100%;
-        height: 304px;
-        margin-top: 25px;
-        background-image: url("../img/bg-logo-phone.png");
-    }
-    .about_text{
-        left: 15px;
-        bottom: 15px;
-        width: 312px;
-        font-size: 16px;
-        line-height: 21.86px;
-    }
-    .wrapper_about_txt{
-        width: 100%;
-        height: 420px;
-        margin-top: 80px;
-    }
-    .txt_about{
-        width: 346px;
-        height: 300px;
-        font-size: 22px;
-        line-height: 30.05px;
-    }
-    .btn{
-        width: 194px;
-        height: 51px;
-        border-radius: 3.8px;
-        line-height: 51px;
-    }
-    .btn_text{
-        width: 140px;
-        font-size: 16px;
-        line-height: 21.86px;
-    }
-
+.about__view-link--active:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
 }

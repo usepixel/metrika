@@ -4,6 +4,7 @@ html{
 body{
     font-family: "Manrope", sans-serif;
     font-weight: 400;
+    letter-spacing: -0.03em;
 }
 .container{
     max-width: 1180px;
@@ -16,4 +17,22 @@ a{
 }
 li{
     list-style: none;
+}
+.menu__list{
+    display: flex;
+}
+.menu__link{
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+}
+.section_tag{
+    font-size: 18px;
+    line-height: 25px;
+    color: #121212;
+}
+#menu__active{
+    opacity: 50%;
+    text-decoration: underline;
+    text-underline-offset: 7px;
 }
