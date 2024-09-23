@@ -8,7 +8,7 @@
     width: 127px;
     height: 21px;
 }
-.header__logo{
+.logo{
     width: 100%;
     height: 100%;
 }
@@ -20,4 +20,11 @@
 }
 .menu__item--margin:last-child{
     margin-right: 0px;
+}
+
+@media (max-width: 960px){
+    .header__menu{
+        display: none;
+    }
+    
 }

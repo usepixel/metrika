@@ -1,13 +1,15 @@
+.about{
+    margin-top: 70px;
+}
 .about__top-wrapper{
     width: 1150px;
     height: 650px;
-    margin-top: 70px;
     position: relative;
 }
 .title{
+    width: 956px;
     font-size: 60px;
     line-height: 60px;
-    width: 956px;
     letter-spacing: -0.03em;
     color: #121212;
 }
@@ -25,7 +27,7 @@
     left: 40px;
     bottom: 40px;
     font-size: 20px;
-    line-height: 27.32px;
+    line-height: 27px;
     color: #FFFFFF;
     width: 430px;
 }
@@ -38,8 +40,6 @@
     font-size: 45px;
     line-height: 61px;
     letter-spacing: -0.03em;
-    color: #121212;
-    margin-top: 30px;
     margin-left: 3px;
 }
 .about__view-services{
@@ -59,4 +59,33 @@
 .about__view-link--active:hover{
     text-decoration: underline;
     text-underline-offset: 5px;
+}
+@media (max-width: 960px){
+    .about__top-wrapper{
+        width: 928px;
+        height: 550px;
+    }
+    .title{
+        width: 802px;
+        font-size: 50px;
+        color: #121212;
+    }
+    .about__box-img{
+        width: 928px;
+        height: 400px;
+    }
+    .about__text{
+        bottom: 30px;
+    }
+    .about__bottom-wrapper{
+        width: 693px;
+        height: 488px;
+        margin-top: 120px;
+    }
+    .about__us{
+        font-size: 35px;
+        line-height: 48px;
+        margin-left: 3px;
+    }
+
 }

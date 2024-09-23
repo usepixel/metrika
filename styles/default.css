@@ -30,9 +30,30 @@ li{
     font-size: 18px;
     line-height: 25px;
     color: #121212;
+    margin-bottom: 30px;
 }
 #menu__active{
     opacity: 50%;
     text-decoration: underline;
     text-underline-offset: 7px;
+}
+.button_link{
+    height: 153px;
+    border-radius: 5px;
+    border: 1px solid #AD1818;
+}
+.button__text{
+    width: 1150px;
+    font-size: 30px;
+    line-height: 153px;
+    color: #AD1818;
+    text-align: center;
+}
+
+@media (max-width: 960px){
+    .container{
+        max-width: 958px;
+        margin: 0px auto;
+        padding: 0px 15px;
+    }
 }
