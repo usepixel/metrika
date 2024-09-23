@@ -45,20 +45,22 @@
 .about__view-services{
     width: 255px;
     height: 67px;
-    line-height: 67px;
+    /* line-height: 67px; */
     text-align: center;
     border-radius: 5px;
     background-color: #AD1818;
     margin-top: 30px;
 }
-.about__view-link--active{
+.about__view-link--hover{
     color: #FFFFFF;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 67px;
+    text-align: center;
+    background-color: #AD1818;
 }
-.about__view-link--active:hover{
+.about__view-link--hover:hover{
     text-decoration: underline;
-    text-underline-offset: 5px;
+    text-underline-offset: 7px;
 }
 @media (max-width: 960px){
     .about__top-wrapper{

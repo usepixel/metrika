@@ -21,11 +21,6 @@ li{
 .menu__list{
     display: flex;
 }
-.menu__link{
-    font-size: 18px;
-    line-height: 25px;
-    color: #121212;
-}
 .section_tag{
     font-size: 18px;
     line-height: 25px;
@@ -42,12 +37,20 @@ li{
     border-radius: 5px;
     border: 1px solid #AD1818;
 }
-.button__text{
+.button__text--hover{
     width: 1150px;
     font-size: 30px;
     line-height: 153px;
     color: #AD1818;
     text-align: center;
+}
+.button__text--hover:hover{
+    background-color: #AD1818;
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
 
 @media (max-width: 960px){
