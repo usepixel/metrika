@@ -1,5 +1,5 @@
 window.addEventListener('blur', () => {
-    document.title = 'Куда ушел??'
+    document.title = 'Вернись, не уходи🙏'
 })
 
 window.addEventListener('focus', () => {

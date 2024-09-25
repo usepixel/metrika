@@ -13,7 +13,7 @@
     letter-spacing: -0.03em;
     color: #121212;
 }
-.about__box-img{
+.about__img-wrapper{
     width: 1150px;
     height: 500px;
     margin-top: 30px;
@@ -45,7 +45,7 @@
 .about__view-services{
     width: 255px;
     height: 67px;
-    /* line-height: 67px; */
+    line-height: 67px;
     text-align: center;
     border-radius: 5px;
     background-color: #AD1818;
@@ -54,40 +54,59 @@
 .about__view-link--hover{
     color: #FFFFFF;
     font-size: 20px;
-    line-height: 67px;
     text-align: center;
     background-color: #AD1818;
 }
 .about__view-link--hover:hover{
     text-decoration: underline;
     text-underline-offset: 7px;
+
 }
-@media (max-width: 960px){
+@media (max-width: 992px){
     .about__top-wrapper{
-        width: 928px;
-        height: 550px;
+        width: 100%;
+        height: 100%;
     }
     .title{
         width: 802px;
         font-size: 50px;
-        color: #121212;
     }
-    .about__box-img{
-        width: 928px;
+    .about__img-wrapper{
+        width: 100%;
         height: 400px;
+        
+    }
+    .about__img{
+        content: url("../img/about__image-tablet.png");
     }
     .about__text{
         bottom: 30px;
+        color: #FFFFFF;
+        width: 430px;
     }
-    .about__bottom-wrapper{
-        width: 693px;
-        height: 488px;
-        margin-top: 120px;
+}
+@media (max-width: 520px){
+    .title{
+        width: 100%;
+        font-size: 30px;
+        line-height: 31.62px;
     }
-    .about__us{
-        font-size: 35px;
-        line-height: 48px;
-        margin-left: 3px;
+    .about__img-wrapper{
+        width: 100%;
+        height: 400px;
     }
-
+    .about__img-wrapper{
+        height: 304px;
+    }
+    .about__img{
+        content: url('../img/about__image-phone.png')
+    }
+    .about__text{
+        left: 15px;
+        bottom: 15px;
+        color: #FFFFFF;
+        width: 312px;
+        font-size: 16px;
+        line-height: 22px;
+    }
 }

@@ -13,7 +13,6 @@
     width: 100%;
     height: 100%;
 }
-
 .menu__item--margin{
     margin-right: 60px;
 }
@@ -26,8 +25,8 @@
     color: #121212;
 }
 
-@media (max-width: 960px){
-    .header__menu{
+@media (max-width: 1180px){
+    .menu{
         display: none;
     }
     
