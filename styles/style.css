@@ -1,0 +1,400 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Manrope", sans-serif;
+    background-color: #FFFFFF;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1180px;
+    overflow: hidden;
+}
+/* -------------------------------------- */
+.nav-block{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25.18px;
+    background-color: #ffffff;
+    margin-top: 32.8px;
+}
+.logo{
+    display: block;
+    width: 126.89px;
+    height: 21.42px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 466px;
+}
+.link{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
+    text-decoration: none;
+    color: #121212;
+    letter-spacing: -0.03em;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+/* -------------------------------------- */
+.logo-block{
+    width: 1150px;
+    margin-top: 70px;
+}
+.logo-text{
+    font-weight: 400;
+    color: #121212;
+    font-size: 60px;
+    line-height: 60px;
+    width: 1039px;
+    margin-top: 70px;
+    padding-bottom: 30px;
+    letter-spacing: 0.03em;
+}
+.img-wrapper{
+    position: relative;
+    background-image: url('../resourses/bg-logo-pc.jpg');
+    width: 1150px;
+    height: 500px;
+ }
+.img-text{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    color: #ffffff;
+    width: 450px;
+}
+/* -------------------------------------- */
+.about-block{
+    width: 1051px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.about__about{
+    width: 54px;
+    font-weight: 400;
+    line-height: 24.59px;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.about__text{
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61.47px;
+    width: 1048px;
+    padding-bottom: 30px;
+    letter-spacing: -0.03em;
+}
+
+.services{
+    display: block;
+    width: 255px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 67px;
+    border: 5px solid #AD1818;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #AD1818;
+}
+.services:hover{
+    background-color: white;
+    color: #121212;
+    border-radius: 30px;
+}
+
+.projects{
+    width: 1150px;
+}
+.word-project{
+    width: 79px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24.59px;
+    color: #121212;
+    padding: 0px 1196px 30px 0px;
+}
+
+.items{
+    width: 1150px;
+    padding-bottom: 90px;
+}
+img{
+    width: 1150px;
+}
+.projects-text{
+    width: 600px;
+    font-weight: 400;
+    color:#121212;
+    line-height: 40.98px;
+    font-size: 28px;
+    padding-top: 15px;
+    padding-right: 649px;
+}
+.details{
+    width: 127px;
+    color: #AD1818;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    padding: 15px 110px 0px 0px;
+    text-decoration: none;
+}
+
+.all-services{
+    width: 1150px;
+    background-color: #ffffff;
+    border: 1px solid #AD1818;
+    border-radius: 5px;
+}
+.btn-services{
+    display: block;
+    width: 1150px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    text-align: center;
+    text-decoration: none;
+    color:#AD1818;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.btn-services:hover{
+    background-color: #AD1818;
+    color:#ffffff;
+}
+
+
+.background{
+    width: 100%;
+    margin-top: 150px;
+    background-color: #121212;
+}
+
+.price__name{
+    width: 66px;
+    color:#ffffff;
+    padding-top: 151px;
+    /* padding-left: 180px; */
+}
+.price__items{
+    width: 1150px;
+    padding-top: 60px;
+
+}
+.first-el{
+    padding-top: 34px;
+}
+.last-el{
+    padding-bottom: 150px;
+}
+.itm-photo{
+    width: 1150px;
+}
+.price__money{
+    width: 700px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #FFFFFF;
+}
+
+.bed-block{
+    position: relative;
+    width: 100%;
+    height: 717px;
+    background-image: url("../resourses/Rectangle\ 10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bed-text{
+    width: 443px;
+    position: absolute;
+    left: 125px;
+    bottom: 60px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #FFFFFF;
+}
+
+.block-contacts{
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+}
+.contacts{
+    width: 500px;
+    padding: 186px 803px 150px 124px;
+    font-weight: 400;
+    color: #121212;
+}
+.contacts::before{
+    content: "";
+    background-image: url("../resourses/iphone.png");
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 150px;
+    left: 120px;
+
+}
+.name-contacts{
+    font-size: 18px;
+    line-height: 24.59px;
+    width: 90px;
+}
+.tel{
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+.mail{
+    font-size: 60px;
+    line-height: 60px;
+    color: #707070;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.footer-block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 229px;
+    background-color: #121212;
+    position: relative;
+}
+
+.footer-resourses{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    position: absolute;
+    top: 60px;
+}
+.footer-link{
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.60px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.footer-text{
+    width: 450px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27.32px;
+    position: absolute;
+    bottom: 30px;
+}
+@media (max-width: 1179px) {
+    .container{
+        max-width: 1179px;
+        width: 100%;
+        padding: 0px 17px;
+    }
+    /* -------------------------------------- */
+    .logo-block{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 73px;
+    }
+    .logo-text{
+        width: 100%;
+        font-size: 55px;
+    }
+    .img-wrapper{
+        width: 100%;
+    }
+    .img-text{
+        width: 440px;
+    }
+    /* -------------------------------------- */
+}
+@media (max-width: 999px){
+    .container{
+        max-width: 999px;
+        width: 100%;
+        padding: 0px 17px 0px 15px;
+    }
+    .nav{
+        display: none;
+    }
+    /* -------------------------------------- */
+    .logo-block{
+        width: 100%;
+        margin-top: 73px;
+    }
+    .logo-text{
+        width: 100%;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .img-wrapper{
+        background-image: url('../resourses/bg-logo-tablet.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        /* height: 400px; */
+    }
+    .img-text{
+        width: 437px;
+        font-size: 20px;
+    }
+    /* -------------------------------------- */
+}
+@media (max-width: 767px) {
+    .container{
+        max-width: 767px;
+        width: 100%;
+        padding: 0px 13px 0px 12px;
+    }
+    .nav{
+        display: none;
+    }
+    .logo-block{
+        width: 100%;
+        margin-top: 61px;
+    }
+    .logo-text{
+        /* width: 100%; */
+        font-size: 30px;
+        line-height: 31.60px;
+    }
+    .img-wrapper{
+        background-image: url('../resourses/bg-logo-phone.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        /* height: 304px; */
+    }
+    .img-text{
+        max-width: 60%;
+        font-size: 16px;
+        /* left: 15px;
+        bottom: 15px; */
+        margin: 0 auto;
+    }
+}
