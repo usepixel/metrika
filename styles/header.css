@@ -31,3 +31,12 @@
     }
     
 }
+@media (max-width: 768px){
+    .header__box-logo{
+        width: 96px;
+        height: 16px;
+    }
+    .logo{
+        content: url("../img/mobile-logo.png");
+    }
+}

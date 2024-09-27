@@ -68,4 +68,9 @@ li{
         padding-left: 13px;
         padding-right: 12px;
     }
+    .section_name{
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 20px;
+    }
 }
