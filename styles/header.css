@@ -37,6 +37,6 @@
         height: 16px;
     }
     .logo{
-        content: url("../img/mobile-logo.png");
+        content: url("../img/mobile-logo.svg");
     }
 }

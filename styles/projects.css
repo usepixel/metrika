@@ -15,7 +15,7 @@
     width: 1150px;
     height: 450px;
 }
-.projects__img{
+.projects__img-one, .projects__img-two, .projects__img-third{
     width: 100%;
     height: 100%;
 }
@@ -25,11 +25,98 @@
     font-size: 30px;
     line-height: 40.98px;
 }
-.projects--margin{
+.projects__name--margin, .projects__details--margin{
     margin-top: 15px;
 }
 .projects__details{
     font-size: 20px;
     line-height: 27.32px;
     color: #AD1818;
+}
+@media (max-width: 1024px){
+    .projects{
+        margin-top: 120px;
+    }
+    .projects__wrapper{
+        height: 2078px;
+    }
+    .projects__item{
+        width: 100%;
+        height: 536px;
+    }
+    .projects__item--margin{
+        margin-bottom: 80px;
+    }
+    .projects__item--margin:last-child{
+        margin-bottom: 102px;
+    }
+    .projects__box-img{
+        width: 100%;
+        height: 450px;
+    }
+    .projects__img-one{
+        content: url("../img/projects__img-one--tablet.jpg");
+
+    }
+    .projects__img-two{
+        content: url("../img/projects__img-two--tablet.jpg");
+
+    }
+    .projects__img-third{
+        content: url("../img/projects__img-third--tablet.jpg");
+
+    }
+    .projects__name{
+        font-size: 25px;
+        line-height: 34px;
+    }
+    .projects__details--margin{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px){
+    .projects{
+        margin-top: 80px;
+    }
+    .projects__wrapper{
+        height: 1281px;
+    }
+    .projects__item{
+        height: 328px;
+    }
+    .projects__item--margin{
+        margin-bottom: 49px;
+    }
+    .projects__item--margin:last-child{
+        margin-bottom: 60px;
+    }
+    .projects__box-img{
+        height: 250px;
+    }
+    .projects__img-one{
+        content: url("../img/projects__img-one--phone.jpg");
+
+    }
+    .projects__img-two{
+        content: url("../img/projects__img-two--phone.jpg");
+
+    }
+    .projects__img-third{
+        content: url("../img/projects__img-third--phone.jpg");
+
+    }
+    .projects__name{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .projects__name--margin{
+        margin-top: 20px;
+    }
+    .projects__details{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .projects__details--margin{
+        margin-top: 11px;
+    }
 }
