@@ -1,0 +1,14 @@
+.services{
+    width: 100%;
+    height: 1602px;
+    margin-top: 150px;
+    background-color: #121212;
+    border: 1px solid transparent;
+}
+.section_name--color{
+    color: #fff;
+}
+.section_name--custom-margin{
+    margin-top: 151px;
+    margin-bottom: 30px;
+}

@@ -25,6 +25,8 @@ li{
     font-size: 18px;
     line-height: 25px;
     color: #121212;
+}
+.section_name--margin{
     margin-bottom: 30px;
 }
 #menu__active{
@@ -78,6 +80,8 @@ li{
     .section_name{
         font-size: 14px;
         line-height: 19px;
+    }
+    .section_name--margin{
         margin-bottom: 20px;
     }
     .button_link{
