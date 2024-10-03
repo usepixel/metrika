@@ -19,10 +19,12 @@
     row-gap: 85px;
     margin-bottom: 106px;
 }
+.services__item{
+    position: relative;
+}
 .services__img-wrapper{
     width: 569px;
     height: 389px;
-    position: relative;
 }
 .services__picture{
     width: 100%;

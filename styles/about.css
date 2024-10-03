@@ -7,7 +7,7 @@
     position: relative;
 }
 .title{
-    width: 956px;
+    max-width: 956px;
     font-size: 60px;
     line-height: 60px;
     letter-spacing: -0.03em;
@@ -29,7 +29,7 @@
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
-    width: 430px;
+    max-width: 430px;
 }
 .about__bottom-wrapper{
     width: 1051px;
