@@ -52,4 +52,7 @@
 }
 .services__price{
     color: #fff;
+    padding: 5px 20px;
+    line-height: 30px;
+    font-size: 22px;
 }

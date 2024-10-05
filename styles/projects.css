@@ -1,7 +1,5 @@
 .projects{
     margin-top: 150px;
-}
-.projects__wrapper{
     height: 2122px;
 }
 .projects__item{
@@ -12,7 +10,7 @@
     margin-bottom: 90px;
 }
 .projects__box-img{
-    width: 1150px;
+    width: 100%;
     height: 450px;
 }
 .projects__img-one, .projects__img-two, .projects__img-third{

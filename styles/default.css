@@ -38,16 +38,24 @@ li{
     height: 153px;
     border-radius: 5px;
     border: 1px solid #AD1818;
+    box-sizing: border-box;
 }
-.button__text--hover{
-    width: 1150px;
+.button__text{
+    width: 100%;
     font-size: 30px;
-    line-height: 153px;
+    line-height: 150px;
     color: #AD1818;
     text-align: center;
     letter-spacing: -0.03em;
+    background-color: #fff;
+    text-decoration: none;
 }
-.button__text--hover:hover{
+.button__text-custom{
+    color: #fff;
+    background-color: #AD1818;
+    line-height: 152px;
+}
+.button__text:hover{
     background-color: #AD1818;
     color: #fff;
     text-decoration: underline;
