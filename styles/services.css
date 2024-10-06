@@ -21,10 +21,12 @@
 }
 .services__item{
     position: relative;
+    min-width: 569px;
+    min-height: 447px;
 }
 .services__img-wrapper{
-    width: 569px;
-    height: 389px;
+    min-width: 569px;
+    min-height: 389px;
 }
 .services__picture{
     width: 100%;
