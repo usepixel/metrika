@@ -1,10 +1,7 @@
-.about{
+.about_top{
     margin-top: 70px;
-}
-.about__top-wrapper{
-    width: 1150px;
+    width: 100%;
     height: 650px;
-    position: relative;
 }
 .title{
     max-width: 956px;
@@ -14,13 +11,15 @@
     color: #121212;
 }
 .about__img-wrapper{
-    width: 1150px;
+    width: 100%;
     height: 500px;
     margin-top: 30px;
+    position: relative;
 }
 .about__img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .about__text{
     position: absolute;
@@ -31,10 +30,13 @@
     color: #FFFFFF;
     max-width: 430px;
 }
-.about__bottom-wrapper{
-    width: 1051px;
+.about_bottom{
+    width: 100%;
     height: 518px;
     margin-top: 150px;
+}
+.about_bottom__wrapper{
+    width: 1051px;
 }
 .about__us{
     font-size: 45px;
@@ -62,84 +64,9 @@
     text-underline-offset: 7px;
 
 }
-@media (max-width: 1024px){
-    .about{
+@media(max-width: 1024px){
+    .about_top{
         margin-top: 74px;
-    }
-    .about__top-wrapper{
-        width: 100%;
         height: 550px;
     }
-    .title{
-        width: 802px;
-        font-size: 50px;
-    }
-    .about__img-wrapper{
-        width: 100%;
-        height: 400px;
-        
-    }
-    .about__img{
-        content: url("../img/about__image-tablet.png");
-    }
-    .about__text{
-        bottom: 30px;
-        color: #FFFFFF;
-        width: 430px;
-    }
-    .about__bottom-wrapper{
-        width: 693px;
-        height: 488px;
-        margin-top: 120px;
-    }
-    .about__us{
-        font-size: 35px;
-        line-height: 48px;
-    }
-}
-@media (max-width: 768px){
-    .about{
-        margin-top: 61px;
-    }
-    .about__top-wrapper{
-        height: 100%;
-    }
-    .title{
-        width: 100%;
-        font-size: 30px;
-        line-height: 31.62px;
-    }
-    .about__img-wrapper{
-        width: 100%;
-        height: 304px;
-        margin-top: 25px;
-    }
-    .about__img{
-        content: url('../img/about__image-phone.png');
-    }
-    .about__text{
-        left: 15px;
-        bottom: 15px;
-        width: 312px;
-        font-size: 16px;
-        line-height: 22px;
-    }
-    .about__bottom-wrapper{
-        width: 100%;
-        height: 420px;
-        margin-top: 80px;
-    }
-    .about__us{
-        font-size: 22px;
-        line-height: 30px;
-    }
-    .about__view-services{
-        width: 194px;
-        height: 51px;
-        line-height: 51px;
-    }
-    .about__view-link--hover{
-        font-size: 16px;
-    }
-
 }
