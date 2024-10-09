@@ -44,25 +44,18 @@
     letter-spacing: -0.03em;
     margin-left: 3px;
 }
-.about__view-services{
-    width: 255px;
-    height: 67px;
-    line-height: 67px;
-    text-align: center;
-    border-radius: 5px;
-    background-color: #AD1818;
-    margin-top: 30px;
-}
 .about__view-link--hover{
     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
     background-color: #AD1818;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin-top: 30px;
 }
 .about__view-link--hover:hover{
     text-decoration: underline;
     text-underline-offset: 7px;
-
 }
 @media(max-width: 1024px){
     .about_top{
@@ -130,12 +123,9 @@
         font-size: 22px;
         line-height: 30px;
     }
-    .about__view-services{
-        width: 194px;
-        height: 51px;
-        line-height: 51px;
-    }
     .about__view-link--hover{
         font-size: 16px;
+        padding: 15px 30px;
+        border-radius: 4px;
     }
 }
