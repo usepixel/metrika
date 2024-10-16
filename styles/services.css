@@ -94,8 +94,8 @@
     .services__name-item--margin{
         margin-top: 15px;
     }
-    .services__name-item--custom-margin{
-        margin-top: 15px;
+    .section_name--custom-margin{
+        margin-top: 151px;
     }
     .services__price-block{
         left: 31px;
@@ -106,5 +106,54 @@
         padding: 7px 26px;
         line-height: 27px;
         font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .services{
+        height: 1663px;
+        margin-top: 144px;
+    }  
+    .services__list{   
+        row-gap: 60px;
+        margin-bottom: 60px;
+    }
+    .services__item{
+        width: 100%;
+        height: 281px;
+    }
+    .services__img-wrapper{
+        height: 240px;
+    }
+    .services__picture-one{
+        content: url("../img/services__one-phone.jpg");
+    }
+    .services__picture-second{
+        content: url("../img/services__second-phone.jpg");
+    }
+    .services__picture-third{
+        content: url("../img/services__third-phone.jpg");
+    }
+    .services__picture-four{
+        content: url("../img/services__four-phone.jpg");
+    }
+    .services__name-item{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .services__name-item--margin{
+        margin-top: 10px;
+    }
+    .section_name--custom-margin{
+        margin-top: 80px;
+    }
+    .services__price-block{
+        left: 23px;
+        top: 24px;
+    }
+    .services__price{
+        color: #fff;
+        padding: 5px 24px;
+        line-height: 19px;
+        font-size: 14px;
     }
 }
