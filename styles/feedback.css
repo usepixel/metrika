@@ -1,0 +1,30 @@
+.feedback{
+    width: 100%;
+}
+.feedback__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.feedback__list-item{
+    width: calc(49% - 25px);
+    margin-bottom: 30px;
+}
+.feedback__name{
+    font-size: 45px;
+    line-height: 61px;
+    color: #000000;
+    margin-bottom: 14px;
+    letter-spacing: -0.03em;
+}
+.feedback__text{
+    font-size: 22px;
+    line-height: 30px;
+    color: #000000;
+    letter-spacing: -0.03em;
+    min-height: 300px;
+}
+.feedback__list-item:last-child{
+    width: 75%;
+    margin-bottom: 0px;
+}
