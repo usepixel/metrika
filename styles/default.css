@@ -29,6 +29,9 @@ li{
 .section_name--margin{
     margin-bottom: 30px;
 }
+.section_name__feedback-custom{
+    margin-top: 150px;
+}
 #menu__active{
     opacity: 50%;
     text-decoration: underline;
@@ -66,6 +69,9 @@ li{
         padding-left: 17px;
         padding-right: 15px;
     }
+    .section_name__feedback-custom{
+        margin-top: 117px;
+    }
 }
 @media (max-width: 768px){
     .container{
@@ -85,5 +91,8 @@ li{
         padding-top: 37px;
         padding-bottom: 37px;
         line-height: 30px;
+    }
+    .section_name__feedback-custom{
+        margin-top: 80px;
     }
 }

@@ -35,14 +35,15 @@
     height: 518px;
     margin-top: 150px;
 }
-.about__wrapper{
+/* .about__wrapper{
     width: 1051px;
-}
+} */
 .about__us{
     font-size: 45px;
     line-height: 61px;
     letter-spacing: -0.03em;
     margin-left: 3px;
+    width: 1051px;
 }
 .about__view-link--hover{
     color: #FFFFFF;
@@ -86,6 +87,7 @@
     .about__us{
         font-size: 35px;
         line-height: 48px;
+        width: 690px;
     }
 }
 @media (max-width: 768px){
@@ -122,6 +124,7 @@
     .about__us{
         font-size: 22px;
         line-height: 30px;
+        width: 346px;
     }
     .about__view-link--hover{
         font-size: 16px;
