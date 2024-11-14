@@ -33,7 +33,7 @@ li{
 .section_name-custom{
     margin-top: 150px;
 }
-#menu__active{
+.menu__link:hover{
     opacity: 50%;
     text-decoration: underline;
     text-underline-offset: 7px;
@@ -102,7 +102,7 @@ li{
 .header{
     margin-top: 33px;
 }
-.header__inner{
+.header__nav{
     display: flex;
     justify-content: space-between;
 }
@@ -120,14 +120,16 @@ li{
 .menu__item--margin:last-child{
     margin-right: 0px;
 }
-.menu__link-header{
+.menu__link{
     font-size: 18px;
     line-height: 25px;
+}
+.header__link-color{
     color: #121212;
 }
 
 @media (max-width: 1180px){
-    .menu{
+    .header__menu{
         display: none;
     }
     
@@ -180,9 +182,6 @@ li{
     height: 518px;
     margin-top: 150px;
 }
-/* .about__wrapper{
-    width: 1051px;
-} */
 .about__us{
     font-size: 45px;
     line-height: 61px;
@@ -744,8 +743,7 @@ li{
         margin-left: 0px;
     }
     .gallery__control-panel{
-        width: 100%;
-        padding-right: 18px;
+        width: 95%;
         margin-left: 0px;
         display: flex;
         justify-content: space-between;
@@ -823,5 +821,58 @@ li{
     .contacts__list{
         display: flex;
         flex-wrap: wrap;
+    }
+    .contacts__item-name{
+        font-size: 35px;
+        margin-top: 58px;
+    }
+}
+
+/* footer */
+
+.footer__nav{
+    background-color: #121212;
+    height: 229px;
+    border: 1px solid transparent;
+}
+.footer__link-color{
+    color: #fff;
+}
+.nav-custom-margin{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.footer__text{
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    opacity: 50%;
+    margin-top: 87px;
+}
+
+@media (max-width: 1024px){
+
+}
+@media (max-width: 768px){
+    .footer__nav{
+        height: 131px;
+    }
+    .nav-custom-margin{
+        margin-top: 30px;
+    }
+    .footer__text{
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 41px;
+    }
+    .menu__link{
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .menu__item--margin{
+        margin-right: 30px;
     }
 }
