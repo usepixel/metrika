@@ -51,7 +51,7 @@
                 <div class="about__wrapper">
                     <h2 class="section_name section_name--margin">О НАС</h2>
                     <p class="about__us">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
-                    <a class="about__view-link--hover" href="#">Посмотреть услуги</a>
+                    <a class="about__view-link--hover" href="#services">Посмотреть услуги</a>
                 </div>
             </div>
         </section>
@@ -85,12 +85,12 @@
                     </li>
                 </ul>
 
-                <a class="button__text" href="#">Смотреть все проекты</a>
+                <a class="button__text" href="#gallery">Смотреть все проекты</a>
 
             </div>
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
                 <h2 class="section_name section_name--color section_name--custom-margin">УСЛУГИ</h2>
                 <ul class="services__list">
@@ -135,7 +135,11 @@
                         </div>
                     </li>
                 </ul>
-                <a class="button__text button__text-color" href="#">Заказать услугу</a>
+                <button class="button__text button__text-color">Заказать услугу</button>
+                
+                <div class="services__popup">
+                    <div class="services__popup-content"></div>
+                </div>
             </div>
         </section>
 
@@ -165,7 +169,7 @@
             </div>
         </section>
 
-        <section class="gallery">
+        <section class="gallery" id="gallery">
             <div class="container">
                 <p class="gallery__title">галерея проектов</p>
             </div>
