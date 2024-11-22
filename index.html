@@ -135,15 +135,23 @@
                         </div>
                     </li>
                 </ul>
-                
+
                 <button class="button__text button__text-color js-btn">Заказать услугу</button>
                 <div class="services__popup js-popup">
                     <div class="services__popup-content js-popup__content">
                         <button class="services__close-btn js-popup__close-btn">
                             <img class="services__img-popup" src="./img/popup-close.svg" alt="Закрыть окно">
                         </button>
-                        <p class="services__popup-title">Заказать услугу</p>
-                        <p class="services__popup-subtitle">Заполните форму, мы свяжемся с вами в течение суток</p>
+                        <div class="services__popup-container">
+                            <p class="services__popup-title">Заказать услугу</p>
+                            <p class="services__popup-subtitle">Заполните форму, мы свяжемся с вами в течение суток</p>
+                            <form>
+                                <input class="input" type="text" placeholder="Имя">
+                                <input class="input" type="text" placeholder="Электронная почта">
+                                <input class="input" type="text" placeholder="Номер телефона">
+                                <button class="services__submit-form">Отправить</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
