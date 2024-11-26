@@ -131,41 +131,35 @@ li{
 .header__link-color{
     color: #121212;
 }
-
+.header__menu-btn{
+    display: none;
+}
 @media (max-width: 1180px){
     .menu__list{
         display: none;
     }
     .header__menu-btn{
-        display: flex;
-        border: none;
-        background-color: transparent;
-        padding: 0px;
-    }
-    .header__burger-inner{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .header__burger-line-top{
-        width: 100%;
-        border: 2px solid #000000;
-        padding-bottom: 6px;
-    }
-    .header__burger-line-bottom{
-        width: 100%;
-        border: 2px solid #000000;
-    }
-    .header__menu-btn{
-        display: flex;
+        display: block;
         border: none;
         background-color: transparent;
         padding: 0px;
         width: 50px;
-        height: 50px;
+        cursor: pointer;
     }
-    .header__burger-line-top{
-        width: 100%;
+    .header__burger-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .header__burger{
+        border: 2px solid #000;
+    }
+    .line-top{
+        width: 50px;
+    }
+    .line-bottom{
+        margin-top: 6px;
+        width: 31px;
     }
     
 }
@@ -176,6 +170,19 @@ li{
     }
     .logo{
         content: url("../img/mobile-logo.svg");
+    }
+    .header__menu-btn{
+        width: 38px;
+    }
+    .header__burger{
+        border: 1.5px solid #000;
+    }
+    .line-top{
+        width: 38px;
+    }
+    .line-bottom{
+        margin-top: 6px;
+        width: 24px;
     }
 }
 
@@ -303,7 +310,7 @@ li{
     .about__us{
         font-size: 22px;
         line-height: 30px;
-        width: 346px;
+        width: 100%;
     }
     .about__view-link--hover{
         font-size: 16px;
