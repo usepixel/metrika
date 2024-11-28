@@ -134,6 +134,9 @@ li{
 .header__menu-btn{
     display: none;
 }
+.header__burger-wrapper{
+    display: none;
+}
 @media (max-width: 1180px){
     .menu__list{
         display: none;
@@ -163,7 +166,7 @@ li{
         margin-top: 6px;
         width: 31px;
     }
-    .burger_open{
+    .burger-wrapper{
         width: 100%;
         height: 100%;
         position: fixed;
@@ -173,23 +176,80 @@ li{
         z-index: 300;
         display: flex;
         justify-content: flex-end;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.8s ease;
     }
-    .header__burger-content{
+    .burger_open{
+        opacity: 1;
+        visibility: visible;
+    }
+    .burger-content{
         width: 75%;
         height: 100%;
         background-color: #fff;
+    }
+    .burger-container{
+        margin-left: 30px;
+    }
+    .burger-logo{
+        width: 156px;
+        height: 26px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .burger-img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     .burger-btn_open{
         background-image: url('../img/close-burger.svg');
         width: 34px;
         height: 34px;
         z-index: 500;
-        position: absolute;
+        position: fixed;
         right: 20px;
         top: 20px;
     }
     .burger-hidden{
         display: none;
+    }
+    .burger__menu{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .burger__item{
+        margin-bottom: 20px;
+    }
+    .burger__item-link{
+        font-size: 25px;
+        line-height: 34px;
+        color: #000;
+    }
+    .burger-contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 70px;
+        padding-left: 3px;
+    }
+    .burger-text{
+        opacity: 50%;
+        font-size: 16px;
+        line-height: 22px;
+        color: #000000;
+    }
+    .burger-tel{
+        font-size: 20px;
+        line-height: 45px;
+        color: #121212;
+    }
+    .burger-mail{
+        font-size: 20px;
+        line-height: 35px;
+        color: #121212;
     }
 }
 @media (max-width: 768px){
