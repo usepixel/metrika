@@ -134,7 +134,7 @@ li{
 .header__menu-btn{
     display: none;
 }
-.header__burger-wrapper{
+.burger-wrapper{
     display: none;
 }
 @media (max-width: 1180px){
